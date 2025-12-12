@@ -1,6 +1,3 @@
-console.log('Hey');
-
-
 const randomNumber= document.querySelector('#random-number');
 randomNumber.addEventListener('click', ()=> {
     document.querySelector("#result").textContent = getRandomNumber(1,100);
